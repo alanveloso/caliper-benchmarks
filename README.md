@@ -4,6 +4,10 @@ This repository contains sample benchmarks that may be used by Caliper, a blockc
 
 Associated performance reports, based on running these benchmarks, are published to the [repository github pages](https://hyperledger.github.io/caliper-benchmarks/).
 
+## Quick Start
+
+For a comprehensive guide on setting up custom benchmarks, see [BENCHMARK_SETUP_GUIDE.md](./BENCHMARK_SETUP_GUIDE.md) which contains lessons learned and common troubleshooting steps.
+
 ## Repository Branches
 
 This repository has three branches:
@@ -36,6 +40,15 @@ In general the steps are:
 For detailed information about using this repo with hyperledger fabric see [Hyperledger Fabric Networks](./networks/fabric/README.md)
 
 For detailed information about using this repo with hyperledger besu see [Hyperledger Besu Networks](./networks/besu/1node-clique/README.md)
+
+## Creating Custom Benchmarks
+
+When creating custom benchmarks, refer to the [BENCHMARK_SETUP_GUIDE.md](./BENCHMARK_SETUP_GUIDE.md) for:
+- Common configuration issues and solutions
+- Required file structures
+- Gas configuration requirements
+- State management between test rounds
+- Compilation and deployment procedures
 
 ## Extending the Documented Reports
 
